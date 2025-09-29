@@ -6,11 +6,6 @@ const Image = {
 
 export default Image;
 
-
-
-
-
-
 import Tools1 from "/assets/tools/html.png";
 import Tools2 from "/assets/tools/css.png";
 import Tools3 from "/assets/tools/reactjs.png"; 
@@ -97,13 +92,13 @@ import Proyek2 from "/assets/proyek/proyek2.png";
 import Proyek3 from "/assets/proyek/proyek3.png";
 import Proyek4 from "/assets/proyek/proyek4.png";
 import Proyek5 from "/assets/proyek/proyek5.png";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek6 from "/assets/proyek/proyek6.png";
 
 export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "JeniusAcadeny Prototype",
+    nama: "JeniusAcademy Prototype",
     desk: "A prototype for an online tutoring website using Figma, before developing the actual website",
     tools: ["Figma"],
     link: "https://www.figma.com/proto/cSyG2IXkEIbkU7Xcb4nRzx/JeniusAcademy-UI?page-id=0%3A1&node-id=2-2&p=f&viewport=193%2C243%2C0.09&t=QCXxBPdMrMpT0FtB-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A2",
@@ -121,7 +116,7 @@ export const listProyek = [
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Unveield Bali Website",
+    nama: "UnveiledBali Website",
     desk: "A website to promote Bali's tourism by showcasing its culture, destinations, food, and travel tips.",
     tools: ["HTML", "CSS", "Javascript"],
     link: "https://oreoo13.github.io/UnveiledBali/",
@@ -151,7 +146,7 @@ export const listProyek = [
     nama: "Work Portofolio",
     desk: "A Website to showcase my skills, projects, and experiences as a developer",
     tools: ["ReactJS", "TailwindCSS"],
-    link: "https://gadingadityap.vercel.app/",
+    link: "http://nicholasmatthewg.vercel.app",
     dad: "700",
   },
 ];

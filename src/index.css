@@ -6,6 +6,28 @@
   }
 }
 
+/* Ensure anchor scrolls take the fixed navbar height into account.
+   This prevents section headings (e.g. #about, #project, #contact)
+   from being hidden under the fixed nav when clicking links. */
+:root {
+  --nav-height: 3.5rem; /* matches .h-14 (56px) used in NavBar */
+}
+
+html {
+  /* When using browser's native scrolling to anchors this keeps
+     the top of the viewport below the fixed navbar. */
+  scroll-padding-top: var(--nav-height);
+}
+
+/* For browsers or cases that use element scrollIntoView, add
+   a scroll-margin on the target sections as a fallback. */
+#about,
+#project,
+#contact,
+#beranda {
+  scroll-margin-top: calc(var(--nav-height) + 0.25rem);
+}
+
 
 
 

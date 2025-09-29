@@ -13,7 +13,7 @@ function App() {
           skills through internship opportunities, with the goal of pursuing a successful career.
           </p>
             <div className="flex items-center sm:gap-4 gap-2">
-            <a href=".\public\CV-NicholasMatthew.pdf" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500">
+            <a href="./public/assets/CV-NicholasMatthew.pdf" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500">
               View CV <i className="ri-download-2-line ri-lg"></i>
             </a>
             <a href="#project" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-500">
@@ -100,7 +100,7 @@ function App() {
                     ))}
                   </div>
                   <div className="mt-8 text-center">
-                    <a href={proyek.link} className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"> Lihat Website</a>
+                    <a href={proyek.link} className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"> Go To The Website</a>
                   </div>
                 </div>
               </div>
@@ -133,12 +133,9 @@ function App() {
       </div>
 
       {/* Footer */}
-      <div className="text-center mb-22  ">
+      <div className="text-center mb-42  ">
         <h1><i class="ri-copyright-line"></i> 2025 Nicholas Matthew Gunawan. All rights reserved. </h1>
       </div>
-
-
-
 
     </>
   )
