@@ -52,7 +52,7 @@ function App() {
             {/* Picture outside the box (to the right on md+) */}
             <div className="w-full md:w-80 flex-shrink-0 hover:scale-105 transition-all duration-300" data-aos="fade-up" 
             data-aos-duration="1000" data-aos-delay="300">
-              <img src={DataImage.HeroImage} alt="About picture" className="w-full rounded-lg shadow-md " />
+              <img src={DataImage.AboutImage} alt="About picture" className="w-full rounded-lg shadow-md " />
             </div>  
           </div>
         </div>
@@ -100,7 +100,7 @@ function App() {
                     ))}
                   </div>
                   <div className="mt-8 text-center">
-                    <a href={proyek.link} className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"> Go To The Website</a>
+                    <a href={proyek.link} className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"> Visit Website</a>
                   </div>
                 </div>
               </div>

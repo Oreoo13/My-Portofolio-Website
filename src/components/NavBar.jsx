@@ -38,13 +38,13 @@ const NavBar = () => {
                             <a href="#beranda" className="hover:underline sm:text-base text-sm font-medium">Home</a>
                         </li>
                         <li>
-                            <a href="#about" className="sm:text-base text-sm font-medium">About</a>
+                            <a href="#about" className="hover:underline sm:text-base text-sm font-medium">About</a>
                         </li>
                         <li>
-                            <a href="#project" className="sm:text-base text-sm font-medium">Project</a>
+                            <a href="#project" className="hover:underline sm:text-base text-sm font-medium">Project</a>
                         </li>
                         <li>
-                            <a href="#contact" className="sm:text-base text-sm font-medium">Contact</a>
+                            <a href="#contact" className="hover:underline sm:text-base text-sm font-medium">Contact</a>
                         </li>
                     </ul>
                 </div>
