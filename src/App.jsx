@@ -13,8 +13,8 @@ function App() {
           skills through internship opportunities, with the goal of pursuing a successful career.
           </p>
             <div className="flex items-center sm:gap-4 gap-2">
-            <a href="./public/assets/CV-NicholasMatthew.pdf" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500">
-              View CV <i className="ri-download-2-line ri-lg"></i>
+            <a href="https://drive.google.com/file/d/1Je9przwOVqcLS2PD7EAqpEKaPNzW3iZG/view?usp=sharing" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500">
+              View My CV <i className="ri-download-2-line ri-lg"></i>
             </a>
             <a href="#project" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-500">
               View Project <i className="ri-arrow-down-fill ri-lg"></i>
